@@ -20,6 +20,7 @@ class CreateUserProfilesTable extends Migration
             $table->integer('sex');
             $table->string('phone');
             $table->string('avatar');
+            $table->integer('user_id');
             $table->timestamps();
         });
     }
